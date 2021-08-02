@@ -1,0 +1,78 @@
+/* Universal styles */
+* {
+  font-family: "Comfortaa", cursive;
+  background-color: #151b25;
+}
+
+p {
+  color: #87aca3;
+}
+
+main {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+h1,
+h5 {
+  color: #175873;
+}
+
+h2 {
+    color: #175873;
+}
+
+h3 {
+    color: #2B7C85;
+}
+
+label {
+  color: #87aca3;
+}
+
+
+
+/* Styles for the header navbar */
+.container-fluid {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background: none;
+}
+
+.navbar-brand {
+  background: none;
+}
+
+#navbarNavAltMarkup {
+  background: none;
+}
+
+.navbar-nav {
+  background: none;
+}
+
+.nav-link {
+  margin-right: 5%;
+  background: none;
+}
+
+/* Styles for the homepage */
+.about-test-div {
+  margin: 8%;
+}
+
+.blockquote {
+  padding-bottom: 1%;
+}
+
+/* Styles for the portfolio images */
+.card-img-top:hover {
+  border: solid transparent;
+}
+
+/* Styles for the resume  */
+.resume-div {
+    width: 50%;
+}
+
+/* Styles for the footer */
