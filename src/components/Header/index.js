@@ -10,7 +10,7 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundImage:  `url(${Forest})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
         <div className="container-fluid">
-          <Link className="navbar-brand" to="#">
+          <Link className="navbar-brand" to="/">
             Andres Plasencia Borja
           </Link>
           <button
@@ -26,7 +26,7 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <Link className="nav-link" aria-current="page" to="/">
+              <Link className="nav-link active" aria-current="page" to="/">
                 About
               </Link>
               <Link className="nav-link" to="/portfolio">
