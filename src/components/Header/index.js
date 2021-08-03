@@ -29,13 +29,13 @@ const Header = () => {
               <Link className="nav-link active" aria-current="page" to="/APB-React-Portfolio">
                 About
               </Link>
-              <Link className="nav-link" to="/portfolio">
+              <Link className="nav-link" to="/APB-React-Portfolio/portfolio">
                 Portfolio
               </Link>
-              <Link className="nav-link" to="/contact">
+              <Link className="nav-link" to="/APB-React-Portfolio/contact">
                 Contact
               </Link>
-              <Link className="nav-link" to="/resume">
+              <Link className="nav-link" to="/APB-React-Portfolio/resume">
                 Resume
               </Link>
             </div>

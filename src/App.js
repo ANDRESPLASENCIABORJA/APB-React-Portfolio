@@ -30,15 +30,15 @@ function App() {
               <About />
             </Route>
             {/* Define a route that will take in variable data */}
-            <Route exact path="/portfolio">
+            <Route exact path="/APB-React-Portfolio/portfolio">
               <Portfolio />
             </Route>
             {/* Define a route that will take in variable data */}
-            <Route exact path="/contact">
+            <Route exact path="/APB-React-Portfolio/contact">
               <Contact />
             </Route>
             {/* Define a route that will take in variable data */}
-            <Route exact path="/resume">
+            <Route exact path="/APB-React-Portfolio/resume">
               <Resume />
             </Route>
           </Switch>
