@@ -10,7 +10,7 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundImage:  `url(${Forest})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/APB-React-Portfolio">
+          <Link className="navbar-brand" to="/">
             Andres Plasencia Borja
           </Link>
           <button
@@ -26,16 +26,16 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <Link className="nav-link active" aria-current="page" to="/APB-React-Portfolio">
+              <Link className="nav-link active" aria-current="page" to="/">
                 About
               </Link>
-              <Link className="nav-link" to="/APB-React-Portfolio/portfolio">
+              <Link className="nav-link" to="/portfolio">
                 Portfolio
               </Link>
-              <Link className="nav-link" to="/APB-React-Portfolio/contact">
+              <Link className="nav-link" to="/contact">
                 Contact
               </Link>
-              <Link className="nav-link" to="/APB-React-Portfolio/resume">
+              <Link className="nav-link" to="/resume">
                 Resume
               </Link>
             </div>

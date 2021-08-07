@@ -36,18 +36,17 @@ const Portfolio = () => {
       </div>
       <div className="col">
         <div className="card" style={{ border: "#151B25" }}>
-          <a href="https://andresplasenciaborja.github.io/Weather-Dashboard/">
+          <a href="https://note-taker-apb.herokuapp.com/">
             <img src={Weather} className="card-img-top" alt="weather" />
           </a>
           <div className="card-body">
-            <h5 className="card-title">Weather Dashboard</h5>
+            <h5 className="card-title">Note Taker</h5>
             <p className="card-text">
-              You want to take a walk outside? Check how is the weather! In this
-              fully responsive app with the usage of javascript, html, css and
-              server side APIS the user can search for the weather of their
-              city.
+              You want to remind something? Check out the note taker! In this
+              fully responsive app with the usage of javascript,and express the
+              user can write notes and will be saved on the app.
             </p>
-            <a href="https://github.com/ANDRESPLASENCIABORJA/Weather-Dashboard">
+            <a href="https://github.com/ANDRESPLASENCIABORJA/Note-Taker">
               <img src={Github} alt="linkedin" width="30" />
             </a>
           </div>

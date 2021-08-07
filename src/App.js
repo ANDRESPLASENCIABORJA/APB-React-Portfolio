@@ -5,7 +5,7 @@
 import React from "react";
 
 // import router
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 // Import css stylesheet
 import "./App.css";
@@ -26,19 +26,19 @@ function App() {
         <div className="container-fluid main-sections">
           <Switch>
             {/* Define routes to render different page components at different paths */}
-            <Route exact path="/APB-React-Portfolio">
+            <Route exact path="/">
               <About />
             </Route>
             {/* Define a route that will take in variable data */}
-            <Route exact path="/APB-React-Portfolio/portfolio">
+            <Route exact path="/portfolio">
               <Portfolio />
             </Route>
             {/* Define a route that will take in variable data */}
-            <Route exact path="/APB-React-Portfolio/contact">
+            <Route exact path="/contact">
               <Contact />
             </Route>
             {/* Define a route that will take in variable data */}
-            <Route exact path="/APB-React-Portfolio/resume">
+            <Route exact path="/resume">
               <Resume />
             </Route>
           </Switch>
