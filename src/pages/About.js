@@ -20,7 +20,7 @@ const About = () => {
       </div>
 
       {/* Section 2 of the main webpage with text */}
-      <figure className="container-fluid text-center" style={{ width: "80%" }}>
+      <figure className="container-fluid text-center" style={{ width: "80%", marginTop: "0.5%"}}>
         <blockquote className="blockquote" >
           <p>
             I am a Full Stack Web Developer from the
