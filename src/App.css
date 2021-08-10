@@ -33,6 +33,7 @@ label {
 
 
 
+
 /* Styles for the header navbar */
 .container-fluid {
   padding-top: 1%;
@@ -70,6 +71,8 @@ label {
 .card-img-top:hover {
   border: solid transparent;
 }
+
+
 
 /* Styles for the resume  */
 .resume-div {

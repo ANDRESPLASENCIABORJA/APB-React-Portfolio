@@ -8,13 +8,13 @@ const Resume = () => {
   return (
     <div
       className="resume-div"
-      style={{ width: "50%", marginLeft: "27.5%", marginBottom: "2.5%  " }}
+      style={{ width: "50%", marginLeft: "27.5%", marginBottom: "2.5%" }}
     >
       <h1>Resume</h1>
-      <a href="/images/myw3schoolsimage.jpg" download>
+      <a href="https://drive.google.com/file/d/1_fgwtW93VDDBmUvKkV6r9Pxt-nfzVzOf/view?usp=sharing" style={{ fontSize: "larger"}} download>
         Download my Resume
       </a>
-      <h3>Front-end Proficienties</h3>
+      <h3 style={{ marginTop: "2.5% "}} >Front-end Proficienties</h3>
       <ul className="list-group list-group-flush">
         <li
           className="list-group-item"
@@ -60,7 +60,7 @@ const Resume = () => {
         </li>
       </ul>
 
-      <h3>Back-end Proficienties</h3>
+      <h3 style={{ marginTop: "1.5% "}}>Back-end Proficienties</h3>
       <ul className="list-group list-group-flush">
         <li
           className="list-group-item"

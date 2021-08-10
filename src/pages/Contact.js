@@ -18,9 +18,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          alert('Email Sent')
         },
         (error) => {
           console.log(error.text);
+          alert('Something went wrong')
         }
       );
     // Reset the form
@@ -54,83 +56,22 @@ const Contact = () => {
   // };
 
   return (
-    // <div className="about-test-div">
-    //   <main className="contact-form-main">
-    //     <section className="contact-menu">
-    //       <div className="container-fluid">
-    //         <h1 className="text-center contact-h1">Contact</h1>
-    //         <form className="row g-3" onSubmit={sendEmail}>
-    //           <div className="col-md-6">
-    //             <label htmlFor="inputEmail4" className="form-label">
-    //               Email
-    //             </label>
-    //             <input
-    //               // value={email}
-    //               name="email"
-    //               // onChange={handleFormChange}
-    //               type="email"
-    //               className="form-control"
-    //               id="inputEmail4"
-    //             />
-    //             {/* {emailErr && (
-    //               <div style={{ color: "white"}}>{emailErr}</div>
-    //             )} */}
-    //           </div>
-    //           <div className="col-md-6 mb-3">
-    //             <label htmlFor="inputPassword4" className="form-label">
-    //               Full Name
-    //             </label>
-    //             <input
-    //               name="name"
-    //               type="text"
-    //               className="form-control"
-    //               id="inputPassword4"
-    //             />
-    //           </div>
-    //           <div className="col-12 mb-3">
-    //             <label htmlFor="exampleFormControlTextarea1" className="form-label">
-    //               Message
-    //             </label>
-    //             <textarea
-    //               // value={message}
-    //               // onChange={handleFormChange}
-    //               name="message"
-    //               type="text"
-    //               className="form-control"
-    //               id="exampleFormControlTextarea1"
-    //               rows="3"
-    //             ></textarea>
-    //           </div>
 
-    //           <div className="col-12 text-center contact-button">
-    //             <button
-    //               type="button"
-    //               className="btn btn-success contact-form"
-
-    //             >
-    //               Send
-    //             </button>
-    //           </div>
-    //         </form>
-    //       </div>
-    //     </section>
-    //   </main>
-    // </div>
     <div className="about-test-div">
       <div className="container-fluid ">
-        <h1 className="text-center contact-h1 mb-3">Contact</h1>
-        <form className="contact-form row g-3" onSubmit={sendEmail}>
+        <h1 className="text-center contact-h1 mb-3" >Contact</h1>
+        <form className="contact-form row g-3"style={{ marginTop: "2.5%" }} onSubmit={sendEmail}>
           <div className="col-md-6 mb-3">
             <label>Full Name</label>
-            <input className="form-control" type="text" name="user_name" />
+            <input className="form-control" type="text" name="user_name" placeholder="name" />
           </div>
           <div className="col-md-6 mb-3">
             <label>Email</label>
-            <input className="form-control" type="email" name="user_email" />
+            <input className="form-control" type="email" name="user_email" placeholder="name@example.com"/>
           </div>
-          <div className="col-12 mb-3">
+          <div className="col-12 mb-3" style={{ marginTop: "1.5%" }}>
             <label>Message</label>
-            <textarea className="form-control" name="message" />
+            <textarea className="form-control" name="message" placeholder="text area"/>
             <input
               className="btn btn-success contact-form mt-3 text-center"
               type="submit"
