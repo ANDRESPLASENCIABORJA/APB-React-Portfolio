@@ -7,7 +7,7 @@ import Forest from "./forest.jpg";
 
 const Header = () => {
   return (
-    <header className = "sticky-top">
+    <header>
       <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundImage:  `url(${Forest})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
