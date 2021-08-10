@@ -61,7 +61,7 @@ const Contact = () => {
       <div className="container-fluid ">
         <h1 className="text-center contact-h1 mb-3" >Contact</h1>
         <form className="contact-form row g-3"style={{ marginTop: "2.5%" }} onSubmit={sendEmail}>
-          <div className="col-md-6 mb-3">
+          <div className="col-md-6 mb-2">
             <label>Full Name</label>
             <input className="form-control" type="text" name="user_name" placeholder="name" />
           </div>
@@ -69,7 +69,7 @@ const Contact = () => {
             <label>Email</label>
             <input className="form-control" type="email" name="user_email" placeholder="name@example.com"/>
           </div>
-          <div className="col-12 mb-3" style={{ marginTop: "1.5%" }}>
+          <div className="col-12 mb-3">
             <label>Message</label>
             <textarea className="form-control" name="message" placeholder="text area"/>
             <input
