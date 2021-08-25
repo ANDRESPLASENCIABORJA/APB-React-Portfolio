@@ -18,11 +18,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          alert('Email Sent')
+          alert("Email Sent");
         },
         (error) => {
           console.log(error.text);
-          alert('Something went wrong')
+          alert("Something went wrong");
         }
       );
     // Reset the form
@@ -56,22 +56,39 @@ const Contact = () => {
   // };
 
   return (
-
     <div className="about-test-div">
       <div className="container-fluid ">
-        <h1 className="text-center contact-h1 mb-3" >Contact</h1>
-        <form className="contact-form row g-3"style={{ marginTop: "2.5%" }} onSubmit={sendEmail}>
+        <h1 className="text-center contact-h1 mb-3">Contact</h1>
+        <form
+          className="contact-form row g-3"
+          style={{ marginTop: "2.5%" }}
+          onSubmit={sendEmail}
+        >
           <div className="col-md-6 mb-2">
             <label>Full Name</label>
-            <input className="form-control" type="text" name="user_name" placeholder="name" />
+            <input
+              className="form-control"
+              type="text"
+              name="user_name"
+              placeholder="name"
+            />
           </div>
           <div className="col-md-6 mb-3">
             <label>Email</label>
-            <input className="form-control" type="email" name="user_email" placeholder="name@example.com"/>
+            <input
+              className="form-control"
+              type="email"
+              name="user_email"
+              placeholder="name@example.com"
+            />
           </div>
           <div className="col-12 mb-3">
             <label>Message</label>
-            <textarea className="form-control" name="message" placeholder="text area"/>
+            <textarea
+              className="form-control"
+              name="message"
+              placeholder="text area"
+            />
             <input
               className="btn btn-success contact-form mt-3 text-center"
               type="submit"
@@ -79,6 +96,12 @@ const Contact = () => {
             />
           </div>
         </form>
+      </div>
+      <div className="container-fluid contact-data">
+        <ul className="list-group text-center" >
+          <li className="list-group-item" style={{ backgroundColor: "#151b25", color: "#175873", border: "none"}}>Phone: +52 55 6970 6164</li>
+          <li className="list-group-item" style={{ backgroundColor: "#151b25", color: "#175873", border: "none" }}>Email: plasenciaborja98@gmail.com</li>
+        </ul>
       </div>
     </div>
   );
