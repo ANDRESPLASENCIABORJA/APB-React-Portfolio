@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/APB-React-Portfolio/static/css/main.b0c36cd9.chunk.css",
-    "main.js": "/APB-React-Portfolio/static/js/main.ee151e42.chunk.js",
-    "main.js.map": "/APB-React-Portfolio/static/js/main.ee151e42.chunk.js.map",
+    "main.js": "/APB-React-Portfolio/static/js/main.7ba5c423.chunk.js",
+    "main.js.map": "/APB-React-Portfolio/static/js/main.7ba5c423.chunk.js.map",
     "runtime-main.js": "/APB-React-Portfolio/static/js/runtime-main.bd5a5a8c.js",
     "runtime-main.js.map": "/APB-React-Portfolio/static/js/runtime-main.bd5a5a8c.js.map",
     "static/css/2.4be38407.chunk.css": "/APB-React-Portfolio/static/css/2.4be38407.chunk.css",
@@ -13,13 +13,14 @@
     "static/css/main.b0c36cd9.chunk.css.map": "/APB-React-Portfolio/static/css/main.b0c36cd9.chunk.css.map",
     "static/js/2.8c7fc99c.chunk.js.LICENSE.txt": "/APB-React-Portfolio/static/js/2.8c7fc99c.chunk.js.LICENSE.txt",
     "static/media/APB-IMAGE.475e019b.jpeg": "/APB-React-Portfolio/static/media/APB-IMAGE.475e019b.jpeg",
+    "static/media/europe.8dd79f95.jpg": "/APB-React-Portfolio/static/media/europe.8dd79f95.jpg",
     "static/media/forest.b0e0cd32.jpg": "/APB-React-Portfolio/static/media/forest.b0e0cd32.jpg",
     "static/media/generator.438cc0e6.jpg": "/APB-React-Portfolio/static/media/generator.438cc0e6.jpg",
     "static/media/github.44eee0c4.png": "/APB-React-Portfolio/static/media/github.44eee0c4.png",
+    "static/media/gitlab.9b0738d8.png": "/APB-React-Portfolio/static/media/gitlab.9b0738d8.png",
     "static/media/lawyer.6e37df00.jpg": "/APB-React-Portfolio/static/media/lawyer.6e37df00.jpg",
     "static/media/linkedin.032cf8a6.png": "/APB-React-Portfolio/static/media/linkedin.032cf8a6.png",
     "static/media/office.9ecccd80.jpg": "/APB-React-Portfolio/static/media/office.9ecccd80.jpg",
-    "static/media/trading.084aade3.jpg": "/APB-React-Portfolio/static/media/trading.084aade3.jpg",
     "static/media/weather.e317f62f.jpg": "/APB-React-Portfolio/static/media/weather.e317f62f.jpg",
     "static/media/yoga.0629cca7.jpg": "/APB-React-Portfolio/static/media/yoga.0629cca7.jpg"
   },
@@ -28,6 +29,6 @@
     "static/css/2.4be38407.chunk.css",
     "static/js/2.8c7fc99c.chunk.js",
     "static/css/main.b0c36cd9.chunk.css",
-    "static/js/main.ee151e42.chunk.js"
+    "static/js/main.7ba5c423.chunk.js"
   ]
 }
