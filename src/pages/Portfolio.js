@@ -4,11 +4,12 @@ import React from "react";
 // Import images
 import Law from "../images/lawyer.jpg";
 import Weather from "../images/weather.jpg";
-import Trading from "../images/trading.jpg";
+import Trading from "../images/europe.jpg";
 import Readme from "../images/generator.jpg";
 import Employee from "../images/office.jpg";
 import Yoga from "../images/yoga.jpg";
 import Github from "../images/github.png";
+import Gitlab from "../images/gitlab.png";
 
 const Portfolio = () => {
   return (
@@ -18,7 +19,7 @@ const Portfolio = () => {
     >
       <div className="col">
         <div className="card" style={{ border: "#151B25" }}>
-          <a href="https://iglesias-and-associates.herokuapp.com/">
+          <a href="https://iglesiasyabogados.com/">
             <img src={Law} className="card-img-top" alt="law" />
           </a>
           <div className="card-body">
@@ -29,44 +30,44 @@ const Portfolio = () => {
               responsive webpage to contact an attorney in Mexico City.
             </p>
             <a href="https://github.com/ANDRESPLASENCIABORJA/Iglesias-app">
-              <img src={Github} alt="linkedin" width="30" />
+              <img src={Github} alt="github" width="30" />
             </a>
           </div>
         </div>
       </div>
       <div className="col">
         <div className="card" style={{ border: "#151B25" }}>
-          <a href="https://note-taker-apb.herokuapp.com/">
+          <a href="https://fierce-chamber-39438.herokuapp.com/">
             <img src={Weather} className="card-img-top" alt="weather" />
           </a>
           <div className="card-body">
-            <h5 className="card-title">Note Taker</h5>
+            <h5 className="card-title">Rubio Special Machines</h5>
             <p className="card-text">
-              You want to remind something? Check out the note taker! In this
-              fully responsive app with the usage of javascript,and express the
-              user can write notes and will be saved on the app.
+              If you want to hire amazing machine services then you should take
+              a look at this amazing enterprize located in Mexico City. Builded
+              with the power of Material Design Bootstrap and React this webpage
+              will take you into a material jurney.
             </p>
-            <a href="https://github.com/ANDRESPLASENCIABORJA/Note-Taker">
-              <img src={Github} alt="linkedin" width="30" />
+            <a href="https://git.mdbgo.com/Borja98Loc/maquinados-especiales">
+              <img src={Gitlab} alt="gitlab" width="30" />
             </a>
           </div>
         </div>
       </div>
       <div className="col">
         <div className="card" style={{ border: "#151B25" }}>
-          <a href="https://danrub98.github.io/BM-Trade-Analysis/">
+          <a href="https://warm-shelf-78514.herokuapp.com/">
             <img src={Trading} className="card-img-top" alt="trading" />
           </a>
           <div className="card-body">
-            <h5 className="card-title">Bank of Mexico Trade Analyst</h5>
+            <h5 className="card-title">International Lawyers</h5>
             <p className="card-text">
-              If you are a trader, or you just want to know how the Exchange
-              rate of the BOM is doing. Then this collaborative app is great for
-              you, powered by html, javascript, APIS and css the user can search
-              for historical exchange rates and more.
+              You want to adquire another Nationality? Then take a look at this
+              page and acopmplish your dream of having more then one
+              nationality. Builded with the power of React and Bootstrap.
             </p>
-            <a href=" https://github.com/Danrub98/BM-Trade-Analysis">
-              <img src={Github} alt="linkedin" width="30" />
+            <a href="https://git.mdbgo.com/Borja98Loc/international-lawyers">
+              <img src={Gitlab} alt="gitlab" width="30" />
             </a>
           </div>
         </div>
